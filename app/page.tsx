@@ -69,11 +69,11 @@ export default function Portfolio() {
     ],
     development: [
       { name: 'React.js', icon: Globe, level: 85 },
-      { name: 'Next.js', icon: Globe, level: 80 },
+      { name: 'Next.js', icon: Globe, level: 70 },
       { name: 'Node.js', icon: Server, level: 75 },
       { name: 'Express.js', icon: Server, level: 75 },
-      { name: 'Spring Boot', icon: Coffee, level: 70 },
-      { name: 'React Native', icon: Smartphone, level: 65 },
+      { name: 'Spring Boot', icon: Coffee, level: 60 },
+      { name: 'React Native', icon: Smartphone, level: 45 },
       { name: 'Tailwind CSS', icon: Globe, level: 90 }
     ],
     databases: [
@@ -104,7 +104,7 @@ export default function Portfolio() {
       description: 'Dynamic and responsive web application with cart management, real-time price updates, and item quantity control.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Tailwind CSS'],
       links: [
-        { label: 'Live Demo', url: 'https://symphonious-bavarois-85ac3a.netlify.app/swiggy.html' },
+        { label: 'Live Demo', url: 'https://symphonious-bavarois-85ac3a.netlify.app' },
         { label: 'GitHub', url: 'https://github.com/Karthikeyadevarakonda' }
       ],
       date: 'June 2024',

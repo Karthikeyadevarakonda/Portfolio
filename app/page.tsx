@@ -82,6 +82,7 @@ export default function Portfolio() {
       { name: "Java", icon: Coffee, level: 90 },
       { name: "C", icon: Code, level: 70 },
       { name: "JavaScript", icon: Globe, level: 85 },
+      { name: "TypeScript", icon: Globe, level: 75 }, // ✅ Added
     ],
     development: [
       { name: "HTML-5/CSS", icon: Globe, level: 90 },
@@ -95,11 +96,16 @@ export default function Portfolio() {
     databases: [
       { name: "MySQL", icon: Database, level: 80 },
       { name: "MongoDB", icon: Database, level: 75 },
+      { name: "PostgreSQL", icon: Database, level: 80 },
+      { name: "Supabase", icon: Database, level: 70 }, // ✅ Added
     ],
     tools: [
       { name: "VS Code", icon: Code, level: 95 },
       { name: "Postman", icon: Globe, level: 85 },
       { name: "GitHub", icon: Github, level: 90 },
+      { name: "Vercel", icon: Globe, level: 85 }, // ✅ Added
+      { name: "Render", icon: Globe, level: 80 }, // ✅ Added
+      { name: "Netlify", icon: Globe, level: 75 }, // ✅ Added
     ],
   };
 
@@ -132,17 +138,20 @@ export default function Portfolio() {
       featured: true,
     },
     {
-  title: 'SalaryGen',
-  description: 'An automated payroll system for managing faculty details, salary rules, deductions, and acquittance reports with role-based access and effective date tracking.',
-  technologies: ['PostgreSQL', 'SpringBoot', 'React.js', 'Tailwind Css'],
-  links: [
-    { label: 'Live Demo', url: 'https://salarygen-seven.vercel.app/' },
-    { label: 'GitHub', url: 'https://github.com/Karthikeyadevarakonda/SalaryGen' }
-  ],
-  date: 'Aug 2025',
-  featured: true
-}
-,
+      title: "SalaryGen",
+      description:
+        "An automated payroll system for managing faculty details, salary rules, deductions, and acquittance reports with role-based access and effective date tracking.",
+      technologies: ["PostgreSQL", "SpringBoot", "React.js", "Tailwind CSS"],
+      links: [
+        { label: "Live Demo", url: "https://salarygen-seven.vercel.app/" },
+        {
+          label: "GitHub",
+          url: "https://github.com/Karthikeyadevarakonda/SalaryGen",
+        },
+      ],
+      date: "Aug 2025",
+      featured: true,
+    },
     {
       title: "MEDITRACK - Hospital Locator",
       description:
@@ -159,6 +168,21 @@ export default function Portfolio() {
         },
       ],
       date: "May 2024",
+      featured: true,
+    },
+    {
+      title: "Shopify Data Ingestion & Insights Service",
+      description:
+        "A multi-tenant service that integrates with Shopify APIs to ingest and analyze store data (customers, orders, products), providing a dashboard with key business insights and metrics.",
+      technologies: ["Spring Boot", "React.js", "PostgreSQL", "Tailwind CSS"],
+      links: [
+        { label: "Live Demo", url: "https://xeno-dusky.vercel.app" },
+        {
+          label: "GitHub",
+          url: "https://github.com/Karthikeyadevarakonda/shopify",
+        },
+      ],
+      date: "Sep 2025",
       featured: true,
     },
   ];
